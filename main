@@ -5,10 +5,10 @@
 
 singularity exec -e docker://brainlife/freesurfer-stats:1.2 ./cut-nodes.py
 
-if [[ ! -f ./output/tractmeasures.csv ]]; then
-	echo "something went wrong"
-	exit 1
-else
-	echo 'complete'
-	exit 0
-fi
+#if [[ ! -f ./output/tractmeasures.csv ]]; then
+#	echo "something went wrong"
+#	exit 1
+#else
+#	echo 'complete'
+#	exit 0
+#fi

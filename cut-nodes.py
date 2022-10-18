@@ -25,7 +25,7 @@ def main():
         config = json.load(config_f)
         
     # set input variables
-    tractmeasures = config['tractmeasures']
+    tractmeasures = pd.read_csv(config['tractmeasures'])
     num_nodes = config['num_nodes']
 
     # cut nodes
