@@ -22,7 +22,7 @@ def main():
     
     # load config.json
     with open('config.json','r') as config_f:
-        config = json.load(config)
+        config = json.load(config_f)
         
     # set input variables
     tractmeasures = config['tractmeasures']
